@@ -1,0 +1,32 @@
+/**
+{
+    margin:0;padding:10;    
+}
+html,body
+{
+    height:100%;
+    width:100%;
+}
+body
+{
+    display:table;
+}
+
+body div
+{
+    display:table-row;
+}*/
+
+.history-box{
+    padding: 10px;
+    width:100%;
+    background: #eee;
+}
+.texti{
+    width:100%;
+    border: none;
+}
+.he{
+    padding: 10px;
+    width:100%;
+}
