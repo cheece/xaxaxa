@@ -1039,7 +1039,7 @@ function summ(){
         var tks = tokenize(new ListReader(lc[i]));
         if(tks.length>0){
             var rrr = analize(new ListReader(tks)).execute();
-            out+= rrr.print()+"\n-----\n";
+            out+= lc[i] +"\n>>>>\n"+rrr.print()+"\n-----\n";
            // $("#history").append(el('<div class="he"></div>',[rrr.print()])); 
         }
     }
@@ -1056,7 +1056,7 @@ function nextPromp(msg){
         var tx = promp.val();
 
         la.remove();
-        addE("<pre>"+tx+"</pre>");
+       // addE("<pre>"+tx+"</pre>");
     }
     addE("<pre>"+msg+"</pre>");
     promp = $('<textarea class="texti" name="Text1" cols="40" rows="5"></textarea>');        
